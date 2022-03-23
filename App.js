@@ -9,7 +9,7 @@ class App extends Component {
       return (
           <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FBD6D2' }}>
             <Text style={{ fontSize: 20, color: '#A63EC5' }}>
-               React Native Custom Modules{"\n"} 
+               TOAST Module by React Native Module{"\n"} 
               </Text>
             <Button onPress={() => {
             ToastExample.show('Awesome!!', ToastExample.SHORT,);
